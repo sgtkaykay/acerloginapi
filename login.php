@@ -7,7 +7,7 @@
 		exit();
 	}
 
-	$redirectURL = "https://exam-acer.herokuapp.com/fb-callback.php";
+	$redirectURL = "https://google-fb.herokuapp.com/fb-callback.php";
 	$permissions = ['email'];
 	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
 ?>
