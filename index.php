@@ -33,6 +33,7 @@
 						<tr>
 							<td>Last Name</td>
 							<td><?php echo $_SESSION['last'] ?></td>
+							<td><a href="logout.php"></a></td>
 						</tr>
 					</tbody>
 				</table>
